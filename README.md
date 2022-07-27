@@ -31,6 +31,18 @@ Here the map function define what is to be done by the having the imperative log
 
 [Reactive programming](https://en.wikipedia.org/wiki/Reactive_programming) is also a subset of declarative programming paradigm that relies on asynchronous programming logic to handle real-time updates to otherwise static content. 
 
-For example, In imperative programming `a = b + c` would mean that the values of `b` and `c` can be changed with no effect on the value of `a`. In reactive programming, the value of `a` is automatically updated whenever the values of `b` or `c` change, without re-execution.
+For example, 
+```javascript
+let a = b + c
+// In imperative a will not change with b and c
 
-Example of reactive programing is [ReactiveX](https://rxjs.dev/) or to create one from scratch watch [`youtube`](https://youtu.be/zAPTohhQpg0)
+// Now lets assume it is reactive 
+let a = f(b, c)
+// a is automatically updated whenever the values of b or c change, without re-execution. 
+// This can be done if the following are true 
+
+typeof a // observer
+typeof b // observable
+typeof f // subscription fuction
+```
+This pattern is called [reactive design pattern](https://reactivex.io/documentation/observable.html). Example of reactive programing is [RxJs](https://rxjs.dev/) or to create one from scratch watch [`youtube`](https://youtu.be/zAPTohhQpg0)
