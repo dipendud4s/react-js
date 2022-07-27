@@ -49,6 +49,7 @@ const machine = {
         this.state = newState;
         this.effect();
     },
+    // side effect from any transition
     effect() {
       if(this.state === 'ON') {
         console.log('Its is bright');
