@@ -52,6 +52,9 @@ Functional components are made of
   - useEffects
   - lot more
 
+## Atomic structure
+
+![Atomic](https://miro.medium.com/max/1400/1*PcQ-m317YX6ct9ccBi6H1Q.png "Atomic design pattern")
 
 
 
