@@ -56,5 +56,6 @@ Functional components are made of
 
 ![Atomic](https://miro.medium.com/max/1400/1*PcQ-m317YX6ct9ccBi6H1Q.png "Atomic design pattern")
 
+visit https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97
 
 
