@@ -45,4 +45,4 @@ typeof a // observer
 typeof b // observable
 typeof f // subscription fuction
 ```
-This pattern is called [reactive design pattern](https://reactivex.io/documentation/observable.html). Example of reactive programing is [RxJs](https://rxjs.dev/) or to create one from scratch watch [`youtube`](https://youtu.be/zAPTohhQpg0)
+This pattern is called [reactive design pattern](https://reactivex.io/documentation/observable.html). Example of reactive programing is [RxJs](https://rxjs.dev/), [S.js](https://github.com/adamhaile/S) or to create one from scratch watch [`youtube`](https://youtu.be/zAPTohhQpg0)
