@@ -15,8 +15,8 @@ A [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) is 
 3. Functional (subset of the declarative paradigm)
 4. Object-oriented.
 
+Example: To get array of doubled values of an array
 ```javascript
-// To get array of doubled values
 let value = [1,2,3,4];
 
 // imperative approach
@@ -30,4 +30,7 @@ value = value.map(v => v * 2);
 Here the map function define what is to be done by the having the imperative logic hidden inside the function. [`youtube`](https://youtu.be/E7Fbf7R3x6I)
 
 [Reactive programming](https://en.wikipedia.org/wiki/Reactive_programming) is also a subset of declarative programming paradigm that relies on asynchronous programming logic to handle real-time updates to otherwise static content. 
-[`youtube`](https://youtu.be/zAPTohhQpg0)
+
+For example, In imperative programming `a = b + c` would mean that the values of `b` and `c` can be changed with no effect on the value of `a`. In reactive programming, the value of `a` is automatically updated whenever the values of `b` or `c` change, without re-execution.
+
+Example of reactive programing is [ReactiveX](https://rxjs.dev/) or to create one from scratch watch [`youtube`](https://youtu.be/zAPTohhQpg0)
