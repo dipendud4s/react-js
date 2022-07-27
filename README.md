@@ -8,4 +8,5 @@ It is a javascript library for building user interfaces created by facebook. It 
 
 ## Index
 - [React vs Reactive programming](Reactive.md)
+- [Component Structure](Components.md)
 - [State Pattern](State.md)
